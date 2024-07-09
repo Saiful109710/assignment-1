@@ -8,11 +8,13 @@
     box-sizing: border-box;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family:"Azeret Mono", monospace ;
-    scroll-behavior: smooth;
+    
 }
 
 /* shared style */
@@ -92,13 +94,21 @@ body{
 }
 
 .hero-content .hero-btn {
+   
+ 
+    padding: 21px 24px 21px 24px;
+    background-color: black;
+    border-radius: 8px;
+
+}
+
+.hero-btn a{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    padding: 21px 24px 21px 24px;
-    background-color: black;
-    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
 
 }
 
