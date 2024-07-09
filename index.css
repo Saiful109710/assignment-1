@@ -8,9 +8,29 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family:"Azeret Mono", monospace ;
     scroll-behavior: smooth;
+}
+
+/* shared style */
+
+.font-style-h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.font-style-p{
+    color: rgba(13, 19, 33,0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
 }
 
 #hero{
@@ -87,7 +107,7 @@ body{
 
     #about{
         width: 1140px;
-        height: 1395px;
+        height: 1350px;
        
         margin: 80px auto;
         background: rgba(13, 19, 33, 0.02);
@@ -210,3 +230,41 @@ body{
 
     
 /* about section style ends here */
+
+
+/* inspiration style starts here */
+
+#inspiration{
+   
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+
+.inspiration-content{
+    width: 852px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.inspiration-vedio{
+    width: 1140px;
+    height: 550px;
+    margin-top: 62px;
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.inspiration-vedio iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* inspiration style starts here */
