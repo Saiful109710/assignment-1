@@ -81,3 +81,132 @@ body{
     border-radius: 8px;
 
 }
+
+
+/* about section style starts here */
+
+    #about{
+        width: 1140px;
+        height: 1395px;
+       
+        margin: 80px auto;
+        background: rgba(13, 19, 33, 0.02);
+    }
+
+
+    #about .about-content{
+        
+        width: 946px;
+        height: 1235px;
+        margin: 80px auto;
+        
+
+    }
+
+    .about-content .about-heading{
+        width: 852px;
+        height: 130px;
+        
+        margin:0 auto 48px;
+    }
+
+    .about-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        
+    }
+
+    .about-heading h2{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    .about-heading P{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+
+
+    .about-bg-style{
+        border-radius: 16px;
+        background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    }
+
+    .about-main{
+        width: 946px;
+        height: 336px;
+       
+        padding: 48px;
+
+        margin-top: 32px;
+        
+        
+    }
+
+    .about-main-items{
+        width: 850px;
+        height: 240px;
+        
+
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .about-main-content{
+        width: 477px;
+        height: 240px;
+        
+        
+
+    }
+
+    .about-main-content h2{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: Azeret Mono;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .about-main-content p{
+        color: rgba(13, 19, 33,0.7);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 16px;
+        margin-bottom: 35px;
+    }
+
+    .about-main-content button{
+        color: rgba(13, 19, 33,0.7);
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 12px 20px 12px 20px;
+        border: 1px solid rgb(13, 19, 33);
+        background: transparent;
+
+    }
+
+
+
+    .about-main-img{
+        width: 274.17px;
+        height: 240px;
+        
+    }
+    
+
+    
+/* about section style ends here */
