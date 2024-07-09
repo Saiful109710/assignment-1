@@ -366,9 +366,9 @@ body{
 
     .next-target{
         width: 1140px;
-        height: 866px;
-       
-        margin-top: 140px;
+        height: auto;
+       margin-top: 140px;
+        
     }
 
     .next-target-heading{
@@ -420,3 +420,83 @@ body{
 
 
 /* target section style ends here */
+
+/* contact section  style starts*/
+
+    #contact{
+
+        background: rgba(0, 0, 0, 0.5);
+        background-image: url(assets/handshake.jpg);
+       
+        background-blend-mode: overlay;
+        border-radius: 16px;
+        
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 1140px;
+        height: 313px;
+        margin: 50px auto 80px;
+        padding: 64px 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    }
+
+    .contact-content{
+        width: 730px;
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .contact-content>h1{
+        color: rgb(255, 255, 255);
+        font-family: Azeret Mono;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .contact-content>p{
+        color: rgba(255, 255, 255,0.7);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .contact-form input[type="text"]{
+        width: 548px;
+        height: 57px;
+        color: rgba(13, 19, 33, 0.4);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        
+    }
+
+    .contact-form input[type="submit"]{
+        font-family: Azeret Mono;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 17px 20px 17px 20px;
+        background-color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    
+/* contact section style ends */
