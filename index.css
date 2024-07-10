@@ -420,7 +420,7 @@ body{
              display: flex;
             gap: 40px;
             padding: 40px;
-            border: 1px solid rgba(13, 19, 33, 0.15);
+            border: 1px solid rgba(13, 19, 33, 0.3);
             border-radius: 16px;
             background: rgb(255, 255, 255);
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
