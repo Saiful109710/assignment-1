@@ -35,6 +35,10 @@ body{
     text-align: center;
 }
 
+/* shared style */
+
+/* header part style starts here */
+
 #hero{
     width: 1440px;
     height: 740px;
@@ -112,9 +116,13 @@ body{
 
 }
 
+/* header part style ends here */
+
 
 /* about section style starts here */
 
+
+    
     #about{
         width: 1140px;
         height: 1350px;
